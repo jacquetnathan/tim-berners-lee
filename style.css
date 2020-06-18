@@ -1,0 +1,154 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(121, 119, 117);
+}
+.haut{
+    width: 40%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: justify;
+    padding-top: 25px;
+    align-items: center;
+}
+.haut img{
+    border-radius: 130px;
+    width: 20%;
+    height: 30%;
+    border: solid 3px rgb(182, 181, 181);
+    margin-left: 330px;
+}
+.haut h1{
+    color: rgb(221, 59, 65);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 280px;
+}
+.haut h2{
+    font-weight: 400;
+    margin-left: 310px;
+}
+.haut p{
+    font-size: 20px;
+    text-justify: distribute;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.haut button{
+    font-size: 20px;
+    background-color: rgb(221, 85, 85);
+    color: white;
+    padding-top: 12px ;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+    margin-left: 320px;
+}
+.millieu{
+    width: 40%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+.millieu ul{
+    list-style-type: none;
+    margin-left: 190px;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+.millieu ul li{
+    padding-top: 80px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+.bas{
+    width: 40%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.bas h2{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 75px;
+}
+.bas img.hulot{
+    float: left;
+    width: 100px;
+    margin-left: 40px;
+    clear:both;
+    margin-bottom: 75px;
+}
+.bas img.alien{
+    float: left;
+    width: 100px;
+    margin-left: 40px;
+    clear:both;
+    margin-bottom: 75px;
+}
+.bas img.space{
+    float: left;
+    width: 100px;
+    margin-left: 40px;
+    clear:both;
+    margin-bottom: 75px;
+}
+.bas p.spacy{
+    padding-left: 175px;
+    padding-right: 20px;
+    text-justify: distribute;
+    font-weight: 150;
+    text-align: justify;
+}
+.bas h3{
+    text-align: center;
+}
+.bas p.hulou{
+    padding-top: 0px;
+    padding-left: 175px;
+    padding-right: 20px;
+    text-justify: distribute;
+    font-weight: 150;
+    text-align: justify;
+}
+.bas h3.hulou2{
+    margin-top: 110px;
+}
+.bas h3.lien{
+    margin-top: 140px;
+}
+.bas p.tete{
+    padding-top: 0px;
+    padding-left: 175px;
+    padding-right: 20px;
+    text-justify: distribute;
+    font-weight: 150;
+    text-align: justify;
+}
+.haut button a{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+}
